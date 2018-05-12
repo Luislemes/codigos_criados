@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Aula1105_POO
 {
-    class Program
+    class Aluno
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }
