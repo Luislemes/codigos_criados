@@ -21,5 +21,25 @@ namespace Aula1105_POO
         public string Cpf { get; set; }
 
 
+
+        // Construtores
+
+        public Aluno()
+        {
+
+        }
+
+        public Aluno(string nome)
+        {
+            Nome = nome;
+        }
+
+        public Aluno(string nome; string cpf)
+         {
+            this.nome = nome;
+            Cpf = 
+         }
+
+
     }
 }

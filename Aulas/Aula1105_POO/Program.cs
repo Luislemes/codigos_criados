@@ -15,6 +15,10 @@ namespace Aula1105_POO
             a.Cpf = "12345678909";
             Console.WriteLine("Aluno: " + a.Nome); // get
 
+            Aluno b = new Aluno("Julinda", "123");
+
+            Aluno c = new 
+
         }
     }
 }
