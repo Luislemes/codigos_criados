@@ -6,22 +6,10 @@ using System.Threading.Tasks;
 
 namespace Aula1105_POO
 {
-    class Aluno
+    class Aluno: Pessoa
     {
-        // Atributos
-        private string nome;
-
-        //Propriedades
-        public string Nome
-        {
-            get => nome; // get { return nome;}
-            set => nome = value; //set {nome = value;}
-        }
-
-        public string Cpf { get; set; }
-
-
-
+        //public Matricula()
+        
         // Construtores
 
         public Aluno()
@@ -29,17 +17,18 @@ namespace Aula1105_POO
 
         }
 
-        public Aluno(string nome)
+        public Aluno(string nome) : base (nome)
         {
-            Nome = nome;
+            
         }
 
-        public Aluno(string nome; string cpf)
-         {
-            this.nome = nome;
-            Cpf = 
-         }
-
-
+        public Aluno(string nome, string cpf) : base (nome, cpf)
+        {
+        }
+            public override string ShowInfoPessoa()
+        {
+            return "Aluno: " + Nome + ", Cpf:  " + Cpf; //+ I, Matricula: " + Matricula;
+        }
+    
     }
 }
