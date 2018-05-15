@@ -8,6 +8,8 @@ namespace Aula1405_Interfaces
 {
     interface IMeioTransporte
     {
+        int velocidade { get; set; }
+
         void Acelecar();
 
         void Desacelerar();
