@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Aula1405_Interfaces
 {
-    interface Interface1
+    interface IMeioTransporte
     {
+        void Acelecar();
+
+        void Desacelerar();
+
+
     }
 }
