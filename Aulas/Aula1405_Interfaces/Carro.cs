@@ -10,6 +10,12 @@ namespace Aula1405_Interfaces
     {
         public int velocidade { get; set; }
 
+        //chave para a classe Marca
+        public int MarcaID { get; set; }
+
+        // instancia para o objeto relacionado
+        public virtual Marca _Marca {get; set;}
+
         public void Acelecar()
         {
             velocidade += 10;
