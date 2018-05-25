@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{35561A4A-1312-4FF4-837B-8652887ED0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{3FBF52FB-6C5A-463B-9723-6877854119E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleView", "ConsoleView\ConsoleView.csproj", "{DD055E93-C255-4978-95E7-ECC49D946858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35561A4A-1312-4FF4-837B-8652887ED0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35561A4A-1312-4FF4-837B-8652887ED0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35561A4A-1312-4FF4-837B-8652887ED0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35561A4A-1312-4FF4-837B-8652887ED0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBF52FB-6C5A-463B-9723-6877854119E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBF52FB-6C5A-463B-9723-6877854119E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBF52FB-6C5A-463B-9723-6877854119E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBF52FB-6C5A-463B-9723-6877854119E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD055E93-C255-4978-95E7-ECC49D946858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD055E93-C255-4978-95E7-ECC49D946858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD055E93-C255-4978-95E7-ECC49D946858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD055E93-C255-4978-95E7-ECC49D946858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B405BDE-E332-43A6-AA83-41BEA4419DB7}
+	EndGlobalSection
+EndGlobal
